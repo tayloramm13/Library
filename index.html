@@ -13,15 +13,31 @@
 
   <header>
     <h1> Welcome to The Library!</h1>
+    <form action="" method="" >
+      <label for="login">Login:</label>
+      <input type="email" id="login" name="username" placeholder="email">
+      <input type="password" id="login" name="password" placeholder="password">
+      <button type="submit">submit</button>
+    </form>
   </header>
 
   <main>
-    <form action="" method="" >
-      <label for="login">Login:</label>
-        <input type="email" id="login" name="username" placeholder="email">
-        <input type="password" id="login" name="password">
-        <button type="submit">submit</button>
-    </form>
+    <h2>Book Catalog</h2>
+
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title">
+
+    <label for="author">Author:</label>
+    <input type="text" id="author" name="author">
+
+    <label for="pages"># of Pages:</label>
+    <input type="number" id="pages" name="page_number">
+
+    <label for="read">Finished Reading?</label>
+    <select name="read">
+      <option value="not read">not read</option>
+      <option value="read">read</option>
+    <button type="submit">Add</button>
   </main>
 </body>
 </html>
